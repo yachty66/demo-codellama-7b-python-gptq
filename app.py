@@ -18,7 +18,7 @@ def init() -> dict:
             device="cuda:0",
             use_triton=False,
             quantize_config=None,
-            inject_fused_attention=False))
+            inject_fused_attention=False)
 
     return {
         "model": model,
